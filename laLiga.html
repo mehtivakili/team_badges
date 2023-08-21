@@ -1,0 +1,31 @@
+<HTML>
+    <head>
+
+    </head>
+    <body>
+        <div id="foo"> 
+
+        </div>
+        <script>
+            for (i=83; i<103; i++){
+                // var a = document.getElementById('foo');
+                // a.appendChild('<img src="https://a.espncdn.com/i/teamlogos/soccer/500/' + i + '.png" />')
+
+
+                var img = new Image();
+                img.width="250"
+                img.height="250"
+                img.src = "https://a.espncdn.com/i/teamlogos/soccer/500/" + i + ".png";
+                var holder = document.getElementById('foo');
+                holder.appendChild(img);
+            }
+            var img = new Image();
+                img.width="250"
+                img.height="250"
+                img.src = "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png";
+                var holder = document.getElementById('foo');
+                holder.appendChild(img);
+            </script>
+        </script>
+    </body>
+</HTML>
